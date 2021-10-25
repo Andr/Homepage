@@ -1,0 +1,27 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: chocolate;
+    text-align: center;
+}
+div{
+    width: 33%;
+    display: inline-block;
+}
+.calendar{
+    width:75%;
+}
+.right{
+    background: coral;
+}
+.middle{
+    background: coral;
+}
+.left{
+    background: coral;
+}
