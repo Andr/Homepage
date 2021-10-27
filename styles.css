@@ -8,20 +8,46 @@ body{
     width: 100%;
     background: chocolate;
     text-align: center;
+    position:fixed;
 }
-div{
+.column{
     width: 33%;
+    height: 70%;
+    background: coral;
     display: inline-block;
 }
-.calendar{
-    width:75%;
+section{
+    width: 100%;
+    height:fit-content;
+    background: red;
+    display: inline-block;
 }
-.right{
-    background: coral;
+footer{
+    background: cornflowerblue;
+    height: 20%;
 }
-.middle{
-    background: coral;
+#searchbar{
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    padding: 25px;
+    background: red;
+    position: relative;
+    top: 100px;
 }
-.left{
-    background: coral;
+#calendar{
+    height: 50%;
+    width: 50%;
+    position: relative;
+    right: 50;
+}
+#clock{
+    height: 30px;
+    width: 120px;
+    background:green;
+    margin: 50px auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    
 }

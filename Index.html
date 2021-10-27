@@ -15,37 +15,54 @@
         <script src="myscripts.js"></script>
     </head>
     <body onload="startTime()">
-            <a class="weatherwidget-io" href="https://forecast7.com/en/42d07n87d79/glenview/" data-label_1="GLENVIEW" data-label_2="WEATHER" data-font="Times New Roman" data-icons="Climacons" data-theme="fall-leaves" >GLENVIEW WEATHER</a>
-            <script>
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-            </script>
-        <div class="left">
-            <h1>Calendar</h1>
-            <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23EF6C00&ctz=America%2FChicago&showNav=0&showTitle=1&showPrint=1&title=Calendar&src=MjM2ODAyQGdsZW5icm9vazIyNS5vcmc&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/42d07n87d79/glenview/" data-label_1="GLENVIEW" data-label_2="WEATHER" data-font="Times New Roman" data-icons="Climacons" data-theme="fall-leaves" >GLENVIEW WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+        <div class="column">
+            <section>
+                placehold
+            </section>
+            <section>
+                placehold
+            </section>
+            <section>
+                placehold
+            </section>
         </div>
-        <div class="middle">
-                <h1>Middle</h1>
-                <form class="search" action="https://google.com/search" method="get" target="_blank">
-                <input type="hidden" name="sitesearch"/>
-                <input type="text" name="q" placeholder="search..." />
-                <input type="submit" value="GO">
-                </form>
-                <section class="bookmarks">
-                <a href="https://www.google.com/gmail/">
-                <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://www.google.com/calendar">
-                <i class="far fa-calendar-alt"></i>
-                </a>
-                <a href="https://www.spotify.com/us/">
-                <i class="fas fa-music"></i>
-                </a>
-                </section>
-        </div>            
-        <div class="right">
-               <h1>placeholder</h1> 
-               <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <section id="clock"></section>
+        <div class="column">
+            <div id="searchbar">
+            <form action="https://google.com/search" method="get" target="_blank">
+                    <input type="hidden" name="sitesearch"/>
+                    <input type="text" name="q" placeholder="search..." />
+                    <input type="submit" value="GO">
+                    </form>
+            </div>
+            <section class="bookmarks">
+                    <a href="https://www.google.com/gmail/">
+                    <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.google.com/calendar">
+                    <i class="far fa-calendar-alt"></i>
+                    </a>
+                    <a href="https://www.spotify.com/us/">
+                    <i class="fas fa-music"></i>
+                    </a>
+                    </section>
         </div>
+        <div class="column">
+            <section>
+                placehold
+            </section>
+            <section>
+                placehold
+            </section>
+            <section>
+                placehold
+            </section>
+        </div>
+        <footer>
+            <div id="clock"></div>
+        </footer>
     </body>
 </html>
